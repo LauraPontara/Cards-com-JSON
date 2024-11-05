@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background: linear-gradient(140deg, #9c98ff, #322cd7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 0;
+}
+
+.image-box img{
+    display: block;
+    width: 100%;
+    /* height: 40rem; */
+    object-fit: cover;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*Será dividido em 3 frações*/
+    justify-items: center; /*Centraliza o CONTEUDO DE CADA CÉDULA DO GRID*/
+    gap: 2rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+}
+
+/* Faz o texto abaixo da imagem ser escondido */
+.card-content{
+    position: absolute;
+    background-color: rgb(0 0 0/50%);
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 20%;
+    padding: 2.2rem 0;
+    overflow: hidden;
+    transition: 0.7s;
+
+}
+
+.card-content h1{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-content h4{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.card-content h1.Aventura{
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+}
+
+.card-content h4.Aventura{
+    margin-top: 7px;
+}
+.card-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 1.2rem;
+}
+
+.card-content .ano{
+    padding-bottom: 0;
+}
+
+.card-content:hover{
+    height: 60%; /*Levanta o a div dos textos quando mouse passa por cima em 60% da altura do card*/
+    transition: 0.7s;
+}
+
+/* =====RESPOSIVIDADE===== */
+@media (max-width: 1024px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

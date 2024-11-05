@@ -1,0 +1,282 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "Leanne Graham",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "email": "Sincere@april.biz",
+      "telefone": "1-770-736-8031",
+      "website": "hildegard.org"
+    },
+    {
+      "id": 2,
+      "nome": "Ervin Howell",
+      "cidade": "Betim",
+      "categoria": "familia",
+      "email": "Shanna@melissa.tv",
+      "telefone": "010-692-6593",
+      "website": "anastasia.net"
+    },
+    {
+      "id": 3,
+      "nome": "Clementine Bauch",
+      "cidade": "Rio de Janeiro",
+      "categoria": "trabalho",
+      "email": "Nathan@yesenia.net",
+      "telefone": "1-463-123-4447",
+      "website": "ramiro.info"
+    },
+    {
+      "id": 4,
+      "nome": "Patricia Lebsack",
+      "cidade": "Betim",
+      "categoria": "trabalho",
+      "email": "Julianne.OConner@kory.org",
+      "telefone": "493-170-9623 x156",
+      "website": "kale.biz"
+    },
+    {
+      "id": 5,
+      "nome": "Chelsey Dietrich",
+      "cidade": "São Paulo",
+      "categoria": "familia",
+      "email": "Lucio_Hettinger@annie.ca",
+      "telefone": "(254)954-1289",
+      "website": "demarco.info"
+    },
+    {
+      "id": 6,
+      "nome": "Mrs. Dennis Schulist",
+      "cidade": "Rio de Janeiro",
+      "categoria": "trabalho",
+      "email": "Karley_Dach@jasper.info",
+      "telefone": "1-477-935-8478",
+      "website": "ola.org"
+    },
+    {
+      "id": 7,
+      "nome": "Kurtis Weissnat",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "email": "Telly.Hoeger@billy.biz",
+      "telefone": "210.067.6132",
+      "website": "elvis.io"
+    },
+    {
+      "id": 8,
+      "nome": "Nicholas Runolfsdottir V",
+      "cidade": "Belo Horizonte",
+      "categoria": "familia",
+      "email": "Sherwood@rosamond.me",
+      "telefone": "586.493.6943",
+      "website": "jacynthe.com"
+    },
+    {
+      "id": 9,
+      "nome": "Glenna Reichert",
+      "cidade": "Betim",
+      "categoria": "amigos",
+      "email": "Chaim_McDermott@dana.io",
+      "telefone": "(775)976-6794",
+      "website": "conrad.com"
+    },
+    {
+      "id": 10,
+      "nome": "Clementina DuBuque",
+      "cidade": "São Paulo",
+      "categoria": "amigos",
+      "email": "Rey.Padberg@karina.biz",
+      "telefone": "024-648-3804",
+      "website": "ambrose.net"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    }
+  ],
+  "locais": [
+    {
+      "id": 1,
+      "descricao": "PUC Minas - Coração Eucarístico",
+      "endereco": "Rua Dom José Gaspar, 500",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.992911,
+        -19.923564
+      ],
+      "url": "https://www.pucminas.br",
+      "cor": "red"
+    },
+    {
+      "id": 2,
+      "descricao": "PUC Minas - Praça da Liberdade",
+      "endereco": "Av. Brasil, 2023 - Funcionários",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.9397233,
+        -19.9332786
+      ],
+      "url": "https://www.pucminas.br/unidade/praca-da-liberdade/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 3,
+      "descricao": "PUC Minas - Barreiro",
+      "endereco": "Avenida Afonso Vaz de Melo, 1.200 - Barreiro",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -44.025818,
+        -19.976609
+      ],
+      "url": "https://www.pucminas.br/unidade/barreiro/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 4,
+      "descricao": "PUC Minas - São Gabriel",
+      "endereco": "Rua Walter Ianni, 255 - São Gabriel",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.917967,
+        -19.859226
+      ],
+      "url": "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 5,
+      "descricao": "PUC Minas - Contagem",
+      "endereco": "R. Rio Comprido, 4.580",
+      "favorito": false,
+      "cidade": "Contagem",
+      "latlong": [
+        -44.076069,
+        -19.939135
+      ],
+      "url": "https://www.pucminas.br/unidade/contagem/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": 6,
+      "descricao": "PUC Minas - Betim",
+      "endereco": "R. do Rosário, 1.081 Bairro Angola",
+      "favorito": true,
+      "cidade": "Betim",
+      "latlong": [
+        -44.1984331,
+        -19.9550716
+      ],
+      "url": "https://www.pucminas.br/unidade/betim/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": 7,
+      "descricao": "PUC Minas - Poços de Caldas",
+      "endereco": "Av. Pe. Cletus Francis Cox, 1.661",
+      "favorito": true,
+      "cidade": "Poços de Caldas",
+      "latlong": [
+        -46.5944649,
+        -21.78904
+      ],
+      "url": "https://www.pucpcaldas.br/",
+      "cor": "green"
+    }
+  ],
+  "lancamentos": [
+    {
+      "mes": "jan-24",
+      "categoria": "Alimentação",
+      "valor": 500
+    },
+    {
+      "mes": "jan-24",
+      "categoria": "Transporte",
+      "valor": 200
+    },
+    {
+      "mes": "jan-24",
+      "categoria": "Lazer",
+      "valor": 300
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Alimentação",
+      "valor": 450
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Transporte",
+      "valor": 180
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Lazer",
+      "valor": 350
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Alimentação",
+      "valor": 600
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Transporte",
+      "valor": 250
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Lazer",
+      "valor": 400
+    }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "populacao": 3800000
+    },
+    {
+      "id": 2,
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "populacao": 11800000
+    },
+    {
+      "id": 3,
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "populacao": 5300000
+    },
+    {
+      "id": 4,
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "populacao": 1200000
+    },
+    {
+      "id": 5,
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "populacao": 2100000
+    }
+  ]
+}

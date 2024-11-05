@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIW - Material Complementar</title>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desenvolvimento de Interfaces Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>Desenvolvimento de Interfaces Web</h1>
+      <h3><a href="cards.html">Meus Cards com JSON</a></h3>
+      <p>Sejam bem-vindos ao repositório de orientação para a disciplina de Desenvolvimento de Intefaces Web (DIW) dos cursos de TI da PUC Minas.</p>
+      <p>A estrutura desse ambiente é apresentada pela Figura a seguir, em que podemos visualizar que o servidor mantido pelo Replit é dividido em duas partes: arquivos estáticos (front end) e JSONServer (back end)
+        <img src="./assets/images/arquitetura_ambiente.png" alt="Arquitetura do ambiente JSONServer no Replit" class="img-fluid">
+      </p>
+      <p>Abraços, Prof. Rommel Carneiro <a href="https://www.linkedin.com/in/rommelcarneiro/" title="Perfil no Linkedin" target="_blank"><i class="bi bi-linkedin"></i></a> <a href="https://rommelcarneiro.me/" title="Site rommelcarneiro.me"  target="_blank"><i class="bi bi-person-lines-fill"></i></a></p>
+      <h2>Material Complementar</h2>
+      <p>Este material acompanha a disciplina de DIW  e fornecem orientações para a construção de aplicações simplificadas com uso do <a href="https://github.com/typicode/json-server" target="_blank">JSONServer</a> como backend.</p>
+      <p>Disponibilizamos alguns vídeos sobre a programação de funcionalidades com JavaScript, JSON e JSONServer que vai mostrar informações relevantes para vocês nessa etapa. Os vídeos são listados a seguir:
+      </p>
+      <ul>
+        <li>Sequência 1 - Projeto de aplicação com JavaScript, JSON e Local Storage <a href="https://drive.google.com/file/d/1XCG-gt9RmJuE4emVqowYXU9aFTmdeEIi/view" title="Código Fonte" target="_blank"><i class="bi bi-download"></i></a>
+          <ul>
+            <li><a href="https://www.loom.com/share/da5ff9cc1e674bec9f85da058e3631c6">Banco de Dados com JSON e Local Storage</a></li>
+          </ul>
+        </li>
+        <li>Sequência 2 - Projeto completo com JavaScript, JSON e AJAX <a href="https://drive.google.com/file/d/1KrnaFnMEQ1bvyH3ijncL12B7fyMhPkB_/view" title="Código Fonte" target="_blank"><i class="bi bi-download"></i></a>
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1bzPVkQTe_KLWLzKAK008SKVHFeMTAseH/view" target="_blank">Iniciando um projeto com HTML e CSS (Parte 1/3)</a></li>
+            <li><a href="https://drive.google.com/file/d/1NT3OtQz_fJ1RgiuMq4QXf2ZT6ulZ58C6/view" target="_blank">Manipulando dados com JavaScript e JSON (Parte 2/3)</a></li>
+            <li><a href="https://drive.google.com/file/d/1aYhm0E3gn0LfauSpEoBj3AN2ilWuVs_B/view" target="_blank">Obtendo dados em JSON via AJAX (Parte 3/3)</a></li>
+          </ul>
+          </li>
+      </ul>
+
+      <p>Os exemplos de código são apresentados a seguir e podem ser utilizados pelos alunos para estudo e como base para as implementações a serem feitas na disciplina. Replique esse respositório e faça as alterações necessárias para o projeto de sua equipe.</p>
+
+      <h2>Exemplos de Códigos</h2>
+      <div class="bd-content">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_contatos_crud.png" class="card-img-top" alt="Cadastro de Contatos - CRUD">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_contatos" target="_blank">Cadastro de Contatos - CRUD</a></h5>
+                <p class="card-text">Funcionalidade de cadastro (CRUD) de contatos com possibilidade de inserção, exclusão, edição e visualização dos registros obtidos via JSONServer (contatos).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_contatos_filter.png" class="card-img-top" alt="Cadastro de Contatos - Filtro/Pesquisa">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_contatos/search.html" target="_blank">Cadastro de Contatos - Filtro/Pesquisa</a></h5>
+                <p class="card-text">Funcionalidade de filtro dos registros de contatos obtidos via JSONServer (contatos), utilizando as informações de cidade e categoria do contato.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_login.png" class="card-img-top" alt="Login do sistema">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_login" target="_blank">Login do sistema</a></h5>
+                <p class="card-text">Funcionalidade de login e registro de usuários no sistema a partir de registros obtidos via JSONServer (usuarios). Permite o cadastro de novos usuários e as informações do usuário logado ficam registradas no sessionStorage até que o usuário efetue logoff.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_mapa.png" class="card-img-top" alt="Mapa com API Mapbox">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_mapa" target="_blank">Mapas com API Mapbox</a></h5>
+                <p class="card-text">Funcionalidade de exibição de locais a partir de registros obtidos via JSONServer (locais). Utiliza a <a href="https://www.mapbox.com/">API Mapbox</a>. Você deve criar uma conta com o e-mail 999999@sga.pucminas.br para obter o acesso gratuito aos recursos da API.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_grafico.png" class="card-img-top" alt="Gráficos com o Chart.js">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_graficos" target="_blank">Gráficos com o Chart.js</a></h5>
+                <p class="card-text">Funcionalidade de exibição de dados em gráficos a partir de registros obtidos via JSONServer (locais) e utilizando a biblioteca <a href="https://www.chartjs.org/">Chart.js</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/app_cidades.png" class="card-img-top" alt="Passagem de parâmetros">
+              <div class="card-body">
+                <h5 class="card-title"><a href="./app_cidades" target="_blank">Passagem de parâmetros entre páginas</a></h5>
+                <p class="card-text">Funcionalidade para carga de dados via JSONServer (cidades) e passagem de parâmetros entre páginas da aplicação.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Referências Bibliográficas</h2>
+      <ul>
+        <li>FLANAGAN, David. JavaScript : o guia definitivo. 6. ed. Porto Alegre, RS: Bookman, 2014. E-book (1062 p.) ISBN 9788565837484.</li>
+        <li>MILETTO, Evandro Manara. Desenvolvimento de software ii introdução ao desenvolvimento web com html, css, javascript e php. Porto Alegre Bookman 2014 1 recurso online ISBN 9788582601969.</li>
+        <li>SILVA, Maurício Samy. CSS3: desenvolva aplicações web profissionais com uso dos poderosos recursos de estilização das CSS3. São Paulo (SP): Novatec, c2012. 494 p. ISBN 9788575222898., Nº de Exemplares: 2.</li>
+      </ul>
+    </main>
+    <footer class="container">
+      Powered By <a href="https://webtech.network" target="_blank">WebTech PUC Minas</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.imagem-exemplo {
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    min-width: 400px;
+}

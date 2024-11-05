@@ -1,0 +1,28 @@
+{
+  "filmes":[
+    {
+      "id": 1,
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "ano": 2001,
+      "genero": "Fantasia",
+      "descricao": "Harry Potter e a Pedra Filosofal é o primeiro filme da saga Harry Potter, dirigido por Chris Columbus e lançado em 2001. A trama segue Harry Potter, um jovem que descobre ser um bruxo e vai estudar na Escola de Magia e Bruxaria de Hogwarts. Lá, ele faz amigos, enfrenta desafios e descobre segredos sobre seu passado e a Pedra Filosofal, um objeto mágico poderoso.",
+      "imgcod": "zWMW3Qp/1.png"
+    },
+    {
+      "id": 2,
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "ano": 2001,
+      "genero": "Aventura",
+      "descricao": "O Senhor dos Anéis: A Sociedade do Anel é o primeiro filme da trilogia épica baseada nos livros de J.R.R. Tolkien, dirigido por Peter Jackson e lançado em 2001. A trama acompanha Frodo Bolseiro e sua jornada para destruir o Um Anel, uma relíquia perigosa que pode ameaçar a Terra-média. Junto com a Sociedade do Anel, Frodo enfrenta desafios e inimigos poderosos.",
+      "imgcod": "QMcfVL9/2.png"
+    },
+    {
+      "id": 3,
+      "nome": "Crepúsculo",
+      "ano": 2008,
+      "genero": "Romance",
+      "descricao": "Crepúsculo é o primeiro filme da saga Crepúsculo, baseado no livro de Stephenie Meyer, dirigido por Catherine Hardwicke e lançado em 2008. A história conta o romance entre Bella Swan, uma jovem humana, e Edward Cullen, um vampiro, enquanto eles enfrentam os desafios e perigos do mundo sobrenatural.",
+      "imgcod": "0jwSLCy/3.png"
+    }
+  ]
+}
